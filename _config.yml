@@ -3,14 +3,14 @@ pygments: true
 permalink: /posts/:title
 rdiscount:
   extensions: [smart]
-title : Arvind Naidu
-production_url : http://arvind-naidu.github.io
-description: "Througths, flamewars, utilities, tutorials, codes, projects and other things by Arvind Naidu."
-disqus_shortname: arvindnaidublog
+title : Amirol Ahmad
+production_url : http://amirolahmad.github.io
+description: "Througths, flamewars, utilities, tutorials, codes, projects and other things by Amirol Ahmad."
+disqus_shortname: amirolahmadblog
 # analytics: UA-32899481-1
 # gauges: 50f1f940613f5d2cfe000026
 author :
-  name : Arvind Naidu
-  github : arvind-naidu
-  twitter : rvine_naidu
-  email: techmaxed.net@gmail.com
+  name : Amirol Ahmad
+  github : AmirolAhmad
+  twitter : AmirolAhmad
+  email: 9w2pdf@gmail.com
