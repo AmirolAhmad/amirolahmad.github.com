@@ -4,9 +4,13 @@ title: "Instajob   A new way to seek/post a job"
 category: posts
 ---
 
+![Instajob](http://amirolahmad.github.io/images/instajob.png)
+
 ### What is Instajob?
 
 Instajob is about social career network where you can seek and post a jobs be it permanent, temporary, on-the-go or even for internship programs.
+
+![Instajob Logo](http://amirolahmad.github.io/images/Icon-180.png)
 
 ### Why choose Instajob?
 
