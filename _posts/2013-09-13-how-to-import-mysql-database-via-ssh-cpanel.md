@@ -22,8 +22,8 @@ Here is the step on how to import MySQL Database via SSH:
 
 	`$ mysql user_database -u user_username -ppasswordhere < backup101.sql` - should same in step 1.
 
-	> Make sure 'user_' is your account name in cPanel that you have create in step 1.
+	**- Make sure 'user_' is your account name in cPanel that you have create in step 1.**
 
-	**Replace passwordhere with the actual password and do not place a space after the -p before the password, it must be directly next to the -p with no space.**
+	**- Replace passwordhere with the actual password and do not place a space after the -p before the password, it must be directly next to the -p with no space.**
 
 5. You are all set. Now check your PHPMyAdmin to make sure your MySQL Database backup file is exist.
