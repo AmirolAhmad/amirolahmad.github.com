@@ -6,7 +6,7 @@ category: posts
 
 If your MySQL database backup is about >50MB, you are having a trouble when you try to restore the database backup file via cPanel or PHPMyAdmin. So the only way to restore the MySQL Database backup file is using SSH.
 
-Here is the step on how to import MySQL Database via SSH
+Here is the step on how to import MySQL Database via SSH:
 
 1. First, create MySQL database, MySQL user & MySQL Password in your cPanel.
 2. Upload the MySQL Database backup file to the server (ex: backup101.sql.gz)
