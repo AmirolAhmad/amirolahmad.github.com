@@ -5,9 +5,6 @@ require 'time'
 require 'open-uri'
 require 'RMagick'
 require "digest/md5"
-require 'rspec/core/rake_task'
-task :default => :spec
-RSpec::Core::RakeTask.new
 
 SOURCE = "."
 CONFIG = {
