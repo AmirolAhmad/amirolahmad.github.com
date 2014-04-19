@@ -20,53 +20,13 @@ Assume that you have file structure something like this:-
 
 3. Open `/home/username/main-laravel/bootstrap/paths.php` and edit to look like this:-
 
-- replace:-
+- replace `'app' => __DIR__.'/../app',` to `'app' => __DIR__.'/../../main-laravel/app',`
 
-```bash
-'app' => __DIR__.'/../app',
-```
+- replace `'public' => __DIR__.'/../public',` to `'public' => __DIR__.'/../../public_html/laravel',`
 
-to
+- replace `'base' => __DIR__.'/..',` to `'base' => __DIR__.'/../../main-laravel',`
 
-```bash
-'app' => __DIR__.'/../../main-laravel/app',
-```
-
-- replace:-
-
-```bash
-'public' => __DIR__.'/../public',
-```
-
-to
-
-```bash
-'public' => __DIR__.'/../../public_html/laravel',
-```
-
-- replace:-
-
-```bash
-'base' => __DIR__.'/..',
-```
-
-to
-
-```bash
-'base' => __DIR__.'/../../main-laravel',
-```
-
-- replace:-
-
-```bash
-'storage' => __DIR__.'/../app/storage',
-```
-
-to
-
-```bash
-'storage' => __DIR__.'/../../main-laravel/app/storage',
-```
+- replace `'storage' => __DIR__.'/../app/storage',` to `'storage' => __DIR__.'/../../main-laravel/app/storage',`
 
 ---- SAVE ---
 
@@ -82,29 +42,9 @@ to
 
 6. Open `/home/username/public_html/laravel/index.php` and edit to look like this:-
 
-- replace:-
+- replace `require __DIR__.'/../bootstrap/autoload.php';` to `require __DIR__.'/../../main-laravel/bootstrap/autoload.php';`
 
-```bash
-require __DIR__.'/../bootstrap/autoload.php';
-```
-
-to
-
-```bash
-require __DIR__.'/../../main-laravel/bootstrap/autoload.php';
-```
-
-- replace:-
-
-```bash
-$app = require_once __DIR__.'/../bootstrap/start.php';
-```
-
-to
-
-```bash
-$app = require_once __DIR__.'/../../main-laravel/bootstrap/start.php';
-```
+- replace `$app = require_once __DIR__.'/../bootstrap/start.php';` to `$app = require_once __DIR__.'/../../main-laravel/bootstrap/start.php';`
 
 ---- SAVE ---
 
